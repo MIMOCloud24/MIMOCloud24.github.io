@@ -216,3 +216,64 @@ hr {
     margin: 20px auto;  /* Center the divider horizontally */
     border-radius: 5px;  /* Rounded edges for a modern look */
 }
+
+/* Project Category Styling */
+.project-category {
+    margin-bottom: 2em;
+}
+
+.project-category h3 a {
+    text-decoration: none;
+    color: #2980b9;
+}
+
+.project-category h3 a:hover {
+    color: #3498db;
+}
+
+.project-item {
+    margin-bottom: 2em;
+}
+
+.project-item h3 {
+    font-size: 1.5em;
+    color: #2980b9;
+}
+
+.project-item p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Notice for Updates */
+#a-plus-core1-projects em {
+    color: #e74c3c;
+    font-style: italic;
+}
+
+/* Blog Page Styling */
+.blog-post {
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #ddd;
+}
+
+.blog-post h3 {
+    font-size: 1.8em;
+    color: #2980b9;
+}
+
+.blog-post p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.read-more {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    color: #3498db;
+}
