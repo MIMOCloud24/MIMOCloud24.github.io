@@ -165,3 +165,54 @@ footer p {
     font-size: 1em;
     color: #7f8c8d;
 }
+
+/* Resume Section */
+#resume {
+    padding: 2em 0;
+}
+
+#resume h2 {
+    font-size: 2em;
+    color: #34495e;
+    margin-bottom: 0.5em;
+}
+
+.experience-item, .education-item {
+    margin-bottom: 2em;
+}
+
+.experience-item h3, .education-item h3 {
+    font-size: 1.5em;
+    color: #2980b9;
+    margin-bottom: 0.3em;
+}
+
+.experience-item p, .education-item p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+ul.skills-list, ul.certifications-list, ul.experience-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.skills-list li, .certifications-list li, .experience-item ul li {
+    margin-bottom: 0.5em;
+    color: #7f8c8d;
+    font-size: 1.1em;
+}
+
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Centered Divider Styling */
+.centered-divider {
+    width: 95%;  /* Adjust the width to your liking */
+    height: 2px;  /* Thickness of the divider */
+    background-color: #2980b9;  /* Color of the divider */
+    margin: 20px auto;  /* Center the divider horizontally */
+    border-radius: 5px;  /* Rounded edges for a modern look */
+}
